@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom' // 路由模式 history
 import App from './App'
+import 'antd/dist/antd.min.css'
 import './index.css' // 引入自己的样式
 
 ReactDOM.render(

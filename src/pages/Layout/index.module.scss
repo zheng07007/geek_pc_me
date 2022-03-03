@@ -1,0 +1,41 @@
+// /* css 模块化 */
+// .layout{
+//   background-color: greenyellow;
+// }
+
+// /* 不要让类名生产哈希 */
+// :global {
+//   .text{
+//     color: burlywood;
+//   }
+// }
+/* css 模块化 */
+.layout{
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  float: left;
+  width: 200px;
+  height: 50px;
+  margin: 5px 24px 16px -70px;
+  /* background: rgba(255, 255, 255, 0.3); */
+  background-image: url(../../assets/logo.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* 头部sider 手机号和退出 */
+.header {
+  /* color: white; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+:global{
+  .ant-popover-placement-bottom {
+    top: 40px !important;
+  }
+}
